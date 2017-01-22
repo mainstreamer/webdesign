@@ -1,0 +1,276 @@
+/* Write your custom CSS here */
+body{
+    font-family: "Roboto";
+    font-weight: 400;
+}
+.royal-blue-bg{
+    background-color: #303f9f;
+}
+.header-menu li{
+    float: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.brand-logo img{
+    height: 35px;
+}
+.brand-logo-footer img{
+    height: 40px;
+}
+.user-logo a{
+    display: block;
+    margin: 0 15% 0 85%;
+}
+.header-info{
+    background-image: url(../img/girl-bg.png);
+    background-repeat: no-repeat;
+    height: 250px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
+.header-info__subtitle{
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.header-info a{
+    color: white;
+}
+.tabs .tab a {
+    color:#b0bec5;
+}
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: #303f9f;
+    text-decoration: none;
+}
+.tabs .indicator{
+    background-color: #303f9f;
+}
+ul.tabs {
+  overflow: hidden;  
+}
+.tabs{
+    box-shadow: none;
+}
+.form-registration{
+    margin-top: 5%;
+}
+
+
+
+/*form colors*/
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea {
+    border-bottom: 1px solid #BCBCBC;
+    color: #555;
+}
+
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #BCBCBC;
+    box-shadow: 0 1px 0 0 #BCBCBC;
+}
+
+input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color: #BCBCBC;
+}
+ 
+.input-field .prefix.active {
+    color: #BCBCBC;
+}
+input:not([type]).valid, input:not([type]):focus.valid, input[type=text].valid, input[type=text]:focus.valid, input[type=password].valid, input[type=password]:focus.valid, input[type=email].valid, input[type=email]:focus.valid, input[type=url].valid, input[type=url]:focus.valid, input[type=time].valid, input[type=time]:focus.valid, input[type=date].valid, input[type=date]:focus.valid, input[type=datetime].valid, input[type=datetime]:focus.valid, input[type=datetime-local].valid, input[type=datetime-local]:focus.valid, input[type=tel].valid, input[type=tel]:focus.valid, input[type=number].valid, input[type=number]:focus.valid, input[type=search].valid, input[type=search]:focus.valid, textarea.materialize-textarea.valid, textarea.materialize-textarea:focus.valid{
+    border-bottom: 1px solid #BCBCBC;
+    box-shadow: 0 1px 0 0  #BCBCBC;
+}
+
+
+
+
+
+
+.form-registration .btn{
+    float: right;
+    color: #3f51b5;
+
+}
+.form-arrow{
+    height: 20px;
+}
+.caret{
+    width: inherit;
+    border-top: 0;
+}
+.label-text{
+    color: #9e9e9e;
+    font-weight: 700;
+}
+.footer-wrapper{
+    border-right: 1px solid #9e9e9e;
+    padding: 90px 0;
+}
+.footer-wrapper_s{
+    margin: 90px auto;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+/*  margin-bottom: -300px; */
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 300px; 
+}
+.site-footer {
+  background: white;
+}
+.site-footer .container{
+     
+}
+.mn-inner {
+    padding: 25px 25px 9.5px 25px;
+    min-height:  385px;
+}
+input[type='text'].footer-input {
+      width: 100%;
+      border: 0;
+      background: #eee;
+      border-radius: 5px;
+      padding: 0 10px;
+      color: #2E2D2D
+}
+input[type='text'].footer-input:focus{
+    outline: 0;
+    background: white;
+}
+.footer-title, label.footer-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+label.footer-title{
+    font-size: 1rem;
+    color: #333;
+}
+.site-footer li a, .site-footer li{
+    color: #978F8F; 
+    margin: 5px 0;
+}
+.footer-wrapper_s > div, .footer-wrapper > div{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-input a{
+    color: #e4e6f5;
+    text-transform: uppercase;
+}
+.footer-input a:hover{
+    color: #6070E8;
+}
+footer a:hover{
+    text-decoration: none;
+}
+/*datapicker*/
+.picker__date-display{
+    background-color: #3f51b5;
+}
+.picker__close, .picker__today{
+    color: #3f51b5;
+}
+.picker__weekday-display{
+    background-color: #303f9f;
+}
+/*datapicker*/
+#personalInfo .form-registration .s7{
+    border-right: 1px solid #bdbdbd;
+}
+.form-title{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+.form-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+form .vertical-wrapper{
+    margin: 10% auto;
+    text-align: center;
+}
+.color__dark-blue{
+    color: #303f9f;
+}
+.color__primary{
+    color: #3f51b5;
+}
+.color__light-blue{
+    color: #c5cae9;
+}
+.color__yellow{
+    color: #ffeb3b;
+}
+.color__black{
+    color: 212121;
+}
+.color__dark-grey{
+    color: #757575;
+}
+.color__light-grey{
+    color: #bdbdbd;
+}
+.bgcolor__dark-blue{
+    background-color: #303f9f;
+}
+.bgcolor__primary{
+    background-color: #3f51b5;
+}
+.bgcolor__light-blue{
+    background-color: #c5cae9;
+}
+.bgcolor__yellow{
+    background-color: #ffeb3b;
+}
+.bgcolor__black{
+    background-color: 212121;
+}
+.bgcolor__dark-grey{
+    background-color: #757575;
+}
+.bgcolor__light-grey{
+    background-color: #bdbdbd;
+}
+.form-registration .social-btn__linkedin{
+    float: none;
+    text-align: center;
+    background-color: #287bbc;
+    color: white;
+    margin: 30px 0;
+    font-weight: 300;
+    /*padding: 10px 0;*/
+}
+ .switch label input[type=checkbox]:checked+.lever:after{
+    background-color: #3f51b5;
+}
+.switch label input[type=checkbox]:checked+.lever{
+        background-color: #c5cae9;
+}
+.select-wrapper input.select-dropdown{
+    color: #9e9e9e;
+    font-weight: 700;
+}
+.form-registration .switch label{
+    font-size: 1rem;
+}
+.form-registration .switch{
+    margin-top: 30px;
+}

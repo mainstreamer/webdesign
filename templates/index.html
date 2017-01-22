@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<title>Registration</title>
+
+        <!-- Theme Styles -->
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+ 		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+		 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+        
+</head>
+<body>
+		<header>
+		<div class="mn-header navbar-fixed">
+			<nav class="royal-blue-bg">
+				<div class="nav-wrapper">
+				<div class='col-sm-4'>
+					<a href="#!" class="brand-logo">
+						<img src='img/logo_bw.svg'>
+					</a>
+				</div>
+				<div class='col-sm-4 center'>
+					<ul class="header-menu center">
+					    <li><a href="#!">About</a></li>
+					    <li><a href="#!">Testing</a></li>
+					    <li><a href="#!">Contacts</a></li>
+				  	</ul>
+				</div>
+				<div class="col-sm-4">
+					<div class="user-logo">
+						<a href="#!">
+							<img src="img/user.png" alt="">
+						</a>
+					</div>
+				</div>
+				</div>
+			</nav>
+		</div>
+			<div class="header-info">
+			<div class="container">	
+				<h2>Please, fill a form to complete a test</h2>
+				<p class="header-info__subtitle">Registration</p>
+				<p>Already have an account?
+				<a href="">Sign in</a>
+				</p>
+			</div>
+			</div>
+		</header>
+
+
+
+		<div class="mn-content valign-wrapper page-wrap">
+            <main class="mn-inner container">
+                <div class="valign">
+                      <div class="row">
+                          <div class="form-wrapper">
+                              <div class="card white darken-1">
+                                  <div class="card-content ">
+                                 	<div>
+										<div class="row">
+				                            <div class="col s12">
+				                                <ul class="tabs tab-demo z-depth-1" style="width: 100%;">
+				                                    <li class="tab col s4"><a href="#personalInfo" class='active'>Personal info</a></li>
+				                                    <li class="tab col s4"><a href="#contactInfo">Contact info</a></li>
+				                                    <li class="tab col s4"><a href="#studyInfo">Study info</a></li>
+				                                </ul>
+				                               	<div id="personalInfo" class="col s12">
+				                               			<div class="form-registration">	
+				                               				<form class="col s12">
+				                               					<div class="col s7">
+								                                        <div class="row">
+								                                            <div class="input-field col s5">
+								                                                <input id="first_name" type="text" required class="validate">
+								                                                <label for="first_name">First Name</label>
+								                                            </div>
+								                                            <div class="input-field col s5">
+								                                                <input id="last_name" type="text" required class="validate">
+								                                                <label for="last_name">Last Name</label>
+								                                            </div>
+								                                        </div>
+								                                        <div class="row">
+																			<div class="input-field col s5">
+								                                                <label for="birthdate">Birthdate</label>
+		                                                                <input id="birthdate" name="birthdate" type="date" class="datepicker required">
+								                                            </div>
+								                                        </div>
+								                                        <div class="row">
+																			<div class="input-field col s5">
+								                                                <input id="email" type="text" required class="validate">
+								                                                <label for="email">Email</label>
+								                                            </div>
+								                                        </div>
+								                                        <div class="row">
+								                                            <div class="input-field col s5">
+								                                                <input id="password" type="password" required class="validate">
+								                                                <label for="password">Password</label>
+								                                            </div>
+								                                            <div class="input-field col s5">
+								                                                <input id="confirm_password" type="password" required class="validate">
+								                                                <label for="confirm_password">Confirm password</label>
+								                                            </div>
+								                                        </div>
+																	</div>
+																	<div class="col s5 vertical-wrapper">
+																		<h4 class='form-title'>
+																			Easy and Fast
+																		</h4>
+																		<p class='center-align'>Just register with Linkedin</p>
+																		<a class="waves-effect waves-light btn social-btn__linkedin">Sign up with Linkedin</a>
+																	</div>
+																	<div class="col s12">
+							                                        	<button id='#changetabbutton_1' class="btn btn-floating btn-large waves-effect waves-light yellow center-align"><img src="img/arrow-right.svg" class='form-arrow' alt=""></button>
+							                                        </div>
+															</form>
+				                               			</div>
+				                               	</div>
+
+				                            </div>
+										</div>
+									</div>
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer class='site-footer'>
+        	<div class="container-fluid">
+		        <div class='col-sm-12'>
+		        	<div class="col-sm-9 footer-wrapper">
+		        	<div>
+			        	<div class="col-sm-5">
+							<a href="#!" class="brand-logo-footer">
+								<img src='img/logo_color_footer.svg'>
+							</a>
+							<div class="social-links">
+								
+							</div>
+						</div>	
+						<div class="col-sm-3">
+							<p class='footer-title'>Menu</p>
+							<ul class="">
+							    <li><a href="#!">Home</a></li>
+							    <li><a href="#!">Testing</a></li>
+							    <li><a href="#!">Contacts</a></li>
+						  	</ul>							
+						</div>
+						<div class="col-sm-3">
+							<p class='footer-title'>Contacts</p>
+							<ul class="">
+							    <li>tel.+38/044/896/88/77</li>
+							    <li>e.hello@shortlist.com</li>
+							    <li>Brussels,Belgium</li>
+						  	</ul>							
+						</div>          	
+		        	</div>
+		        	</div>
+		        	<div class="col-sm-3 footer-wrapper_s">
+					  <div class='footer-input'>
+					  	<label  class='footer-title' for="">Newsletter</label>
+					    <input type="text" class='footer-input' required placeholder=" your e-mail" />
+					    <!-- <button>Subscribe</button> -->
+					    <a href="">Subscribe</a>
+					  </div>
+
+		        	</div>
+		        </div>
+	        </div>
+        	
+        </footer>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+	
+</body>
+</html>
